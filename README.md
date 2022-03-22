@@ -20,7 +20,7 @@
 - Splitting into Training and Validation Sets
 - Setting the Random Seeds
 
-#建構模組
+# 建構模組
 - 影像資料增補(dataaugmentation)
 - Create Sequential model with using Keras
 - 輸出模型摘要資訊
@@ -28,10 +28,10 @@
 - compile model : 選擇損失函數、優化方法及成效衡量方式
 - training進行訓練, 將訓練過程會存在 history 變數中(epochs=30)
 
-#評估分析
+# 評估分析
 -  classification  report 成果
 -  Plotting learning curves
 
-#Conclusion
+# Conclusion
 - train loss 不斷下降，val loss不斷下降，說明網路仍在學習
 - Accuracy rate exceeded 75% limit while in the training phase. In the same way validation accuracy return the 70%~75%. I think this is not a bad result for this datasets.
