@@ -15,19 +15,21 @@
 # 匯入模組
 
 # 資料準備
+- 將img資料 & 花的種類 分別放到x, y array
 - 製作函數以便從圖像中獲取訓練集和驗證集
 - Splitting into Training and Validation Sets
 - Setting the Random Seeds
 
 # 建構模組
-- 影像資料增補(dataaugmentation)
+- 影像資料增補(dataaugmentation):透過rescale, rotate增強資料 加強CNN辨識度
 - Create Sequential model with using Keras
 - 輸出模型摘要資訊
 - reduce the learnng rate
 - compile model : 選擇損失函數、優化方法及成效衡量方式
-- training進行訓練, 將訓練過程會存在 history 變數中(epochs=30)
+- training進行訓練, 將訓練過程會存在 history 變數中
 
 # 評估分析
+-  輸出confusion matrix
 -  classification  report 成果
 -  Plotting learning curves
 
